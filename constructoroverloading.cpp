@@ -15,3 +15,10 @@ class mahasiswa {
     void cetak();
     
 };
+mahasiswa :: mahasiswa(){
+}
+
+mahasiswa :: mahasiswa(int iNim){
+    nim = iNim; // definisi hanya NIM
+}
+
