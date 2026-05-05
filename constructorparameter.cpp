@@ -14,3 +14,7 @@ mahasiswa::mahasiswa(int nim, string nama) {
     cout << "Nama : " << nama << endl;
 }
 
+int main(){
+    mahasiswa mhs(113, "rizki tukang makan"); // memanggil constructor dengan parameter
+    return 0;
+}
