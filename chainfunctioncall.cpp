@@ -10,4 +10,14 @@ class buku{
         return *this;    //chain function
     }
 
-    
+    string getJudul(){
+        return this->judul;
+    }
+};
+
+int main()
+{
+    buku bukunya;
+    cout<<bukunya.setJudul("Matematika").getJudul();    //chain function calls
+    return 0;
+}
