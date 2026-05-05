@@ -23,3 +23,16 @@ public:
         return nim;
     }
 
+    Mahasiswa(string pnama) : nama(pnama) {
+        setID();
+    }
+};
+
+// inisialisasi static member
+int Mahasiswa::nim = 0;
+
+// pendefinisian prosedur di luar class
+void Mahasiswa::setID() {
+    id = ++nim;
+}
+
