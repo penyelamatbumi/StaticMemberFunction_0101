@@ -5,7 +5,6 @@ class Mahasiswa { // membuat class mahasiswa
 
 public:
     static int nim; // deklarasi variabel static yaitu variabel nim
-    
     // deklarasi variabel member
     int id;
     string nama;
@@ -22,7 +21,7 @@ public:
 };
 
 // memberi value ke variabel nim dari class mahasiswa
-int Mahasiswa::nim = 10;
+int Mahasiswa::nim = 0;
 
 // mengimplementasikan prosedur di luar class
 void Mahasiswa::setID() {
@@ -38,9 +37,9 @@ void Mahasiswa::printAll() {
 int main() {
     // membuat object dan memberi nilai
     Mahasiswa mhs1("Lia Kurnia");
-    Mahasiswa mhs2("Fawwaz Stratus");
+    Mahasiswa mhs2("Asroni");
     Mahasiswa mhs3("Andi Kurniawan");
-    Mahasiswa mhs4("Bagas Satya Widhi");
+    Mahasiswa mhs4("Joko Purbo");
 
     // memanggil prosedur printAll()
     mhs1.printAll();
